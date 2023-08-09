@@ -1,0 +1,25 @@
+.App {
+    @apply flex flex-col min-h-screen bg-gray-100 text-gray-800;
+    .container {
+        @apply bg-white p-5 my-12 rounded-lg lg:w-auto mx-auto lg:mx-20 border-[1px] border-solid border-black shadow-md;
+    }
+}
+.light {
+    @apply bg-gray-100 text-gray-800;
+}
+
+.dark {
+    @apply bg-gray-800 text-gray-100;
+    .container {
+        @apply bg-gray-800 text-gray-100;
+        button {
+            @apply text-black
+        }
+    }
+    header {
+        @apply bg-gray-800 text-gray-100;
+    }
+    .text-input {
+        @apply bg-gray-800 text-gray-100;
+    }
+}

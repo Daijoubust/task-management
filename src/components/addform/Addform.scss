@@ -1,0 +1,25 @@
+.form-container {
+    @apply flex flex-row justify-center items-center space-x-2;
+    select {
+        @apply border-[1px] border-solid border-black rounded-md flex-grow p-2 m-2;
+    }
+    .text-input {
+        @apply border-[1px] border-solid border-black rounded-md flex-grow p-2 m-2 w-full;
+    }
+    .text-input:focus {
+        @apply outline-none;
+    }
+
+    .submit-btn {
+        @apply bg-gray-800 text-white font-bold py-2 px-4 rounded-md cursor-pointer text-xl;
+    }
+}
+
+.dark {
+    .submit-btn {
+        @apply bg-white text-black;
+    }
+    select {
+        @apply bg-gray-800 text-white;
+    }
+}

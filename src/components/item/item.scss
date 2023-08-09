@@ -1,0 +1,44 @@
+.title {
+    @apply text-xl font-semibold list-item p-2 list-inside flex-grow;
+}
+
+.button-container {
+    @apply flex items-center;
+}
+
+.btn {
+    @apply h-6 w-6 rounded-md cursor-pointer;
+}
+
+.list-items {
+    @apply flex items-center justify-between mt-2 py-1 px-8 border-[1px] rounded-md shadow-md;
+}
+
+.list-items:hover {
+    @apply bg-gray-100 cursor-pointer;
+}
+
+.priority {
+    @apply text-sm font-semibold uppercase flex-grow-0 mr-2;
+}
+
+.low {
+    @apply text-green-500 font-semibold uppercase;
+}
+
+.medium {
+    @apply text-yellow-500 font-semibold uppercase;
+}
+
+.high {
+    @apply text-red-500 font-semibold uppercase;
+}
+
+.dark {
+    .list-items {
+        @apply bg-gray-800 text-white;
+    }
+    .list-items:hover {
+        @apply bg-gray-700;
+    }
+}

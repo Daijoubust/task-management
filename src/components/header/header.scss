@@ -1,0 +1,20 @@
+header {
+    @apply flex items-center text-center justify-between px-10 h-14 text-black bg-gray-100 shadow-md
+}
+
+.logo {
+    @apply flex items-center;
+    span {
+        @apply text-2xl font-semibold cursor-pointer ml-2;
+    }
+}
+
+.theme-container {
+    @apply flex items-center justify-center;
+    span {
+        @apply text-sm font-semibold ml-2 select-none;
+    }
+    .icon {
+        @apply text-2xl cursor-pointer;
+    }
+}

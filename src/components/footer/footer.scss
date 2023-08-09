@@ -1,0 +1,12 @@
+footer {
+    @apply px-20 lg:py-5 md:py-4 py-3 text-center fixed bottom-0 w-full shadow-xl bg-white shadow-black;
+    .footer-container {
+        @apply flex flex-row justify-center items-center space-x-2;
+    }
+}
+
+.dark {
+    footer {
+        @apply bg-gray-800 text-white border-[1px] border-solid border-black;
+    }
+}
